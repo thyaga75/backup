@@ -1,0 +1,28 @@
+package test;
+
+public class Temp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		B b= new B();
+		System.out.println("B.x before main init"+ b.x);
+		b.x=10;
+		System.out.println("B.x after main init"+ b.x);
+		A a = new A();
+		a.methodA(b);
+		System.out.println("B.x before main init"+ b.x);
+	}
+
+	static class B{
+		int x;
+	}
+	static class A{
+		public void methodA(B obj){
+			System.out.println("B.x before method init"+ obj.x);
+			obj.x=250;
+			System.out.println("B.x after method init"+ obj.x);
+			obj=null;
+			System.out.println("obj after method null"+ obj);
+		}
+	}
+}

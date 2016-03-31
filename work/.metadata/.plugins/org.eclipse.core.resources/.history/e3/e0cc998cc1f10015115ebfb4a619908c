@@ -1,0 +1,53 @@
+package test;
+
+public class Temp {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		B b1 = new B();
+		System.out.println("-------------------------------------------------------");
+		B b2 = new B(5);
+		System.out.println("-------------------------------------------------------");
+		B b3 = new B(5,25);
+	}
+}
+
+class A {
+	public A() {
+		this(0);
+		System.out.println("inside class A default constructor");
+	}
+
+	public A(int x) {
+		System.out.println("inside class A single parameter constructor");
+		System.out.println("value x" + x);
+	}
+	public A(int x, int y) {
+		System.out.println("inside class A two parameter constructor");
+		System.out.println("value x" + x);
+		System.out.println("value y" + y);
+	}
+
+	public void method() {
+		System.out.println("inside class A method");
+	}
+}
+
+class B extends A {
+	public B() {
+		this(0);
+		System.out.println("inside class B default constructor");
+	}
+
+	public B(int x) {
+		this(x,0);
+	}
+	public B(int x, int y) {
+		super(y);
+		System.out.println("inside class B two parameter constructor");
+		System.out.println("value X" + x);
+	}
+
+	public void method() {
+		System.out.println("inside class B method");
+	}
+}

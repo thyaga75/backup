@@ -1,0 +1,28 @@
+package test;
+
+public class Temp {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Cycle cycle=new Cycle();
+cycle.printInfo();
+Bicycle bicycle= new Bicycle();
+System.out.println(bicycle.weight);
+System.out.println(bicycle.brand);
+bicycle.printInfo();
+	}
+}
+class Cycle {
+	int weight = 10;
+public void printInfo(){
+	System.out.println("cycle weight-"+ weight);
+}
+}
+	
+	class Bicycle extends Cycle{
+	String brand="Hero";
+	public void printInfo(){
+		System.out.println("cycle weight-"+ weight);
+		System.out.println("bicycle brand-"+ brand);
+	}
+	
+}

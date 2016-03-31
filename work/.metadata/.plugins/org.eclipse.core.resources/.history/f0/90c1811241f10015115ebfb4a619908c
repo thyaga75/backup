@@ -1,0 +1,30 @@
+package test;
+
+public class Temp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Test.count=25;
+		System.out.println("main1-" +Test.count );
+		Test t1 = new Test();
+		System.out.println("main2-" +Test.count );
+		//Test.count=50;
+		Test t2 = new Test();
+		Test t3 = new Test();
+		Test t4;
+		Test.count=50;
+		t4=new Test();
+	}
+}
+class Test {
+	static int count = 0;
+static{
+count=50;
+System.out.println("static-" + count);
+
+}
+	Test() {
+		count++;
+		System.out.println("constructor-"+count);
+	}
+}

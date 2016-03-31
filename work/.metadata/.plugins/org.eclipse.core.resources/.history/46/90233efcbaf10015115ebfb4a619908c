@@ -1,0 +1,26 @@
+package test;
+
+public class Temp {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		B b= new B();
+	}
+}
+
+class A{
+	public void method(){
+		System.out.println("inside class A method");
+	}
+}
+class B extends A{
+	public B(){
+		System.out.println("inside class B default constructor");
+	}
+	public B(int x){
+		System.out.println("inside class B single parameter constructor");
+		System.out.println("value X"+x);
+	}
+	public void method(){
+		System.out.println("inside class B method");
+	}
+}

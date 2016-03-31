@@ -1,0 +1,25 @@
+package test;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class Temp {
+	public static void main(String[] args) throws NumberFormatException, IOException {
+		// TODO Auto-generated method stub
+
+		System.out.println("Welcome to fibonocci generator. Enter the number of fibonocci numbers you need: \n");
+		BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+		int choice = Integer.parseInt(bufferedReader.readLine());
+		int initialNo = 1;
+		int fibNo = 0;
+		for (int i = 0; i <= choice; i++) {
+			System.out.print(fibNo + "   ");
+			fibNo=fibNo+initialNo;
+			int temp=initialNo;
+			initialNo=fibNo;
+			fibNo=temp;
+			
+		}
+	}
+}

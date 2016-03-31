@@ -1,0 +1,33 @@
+package test;
+
+public class Temp {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+B b= new B();
+b.method();
+System.out.println("b pi"+B.pi);
+B b1= new B();
+b1.method();
+System.out.println("b1 pi"+b1.pi);
+	}
+}
+
+class A {
+	public static double pi=1.14;
+	public void method() {
+		System.out.println("inside class A method");
+	}
+}
+
+class B extends A {
+	static{
+		System.out.println("inside class B static before assign - Pi value:" + pi);
+		 pi=3.14;	
+	}
+
+	public void method() {
+		System.out.println("inside class B method");
+		System.out.println("inside class B method- Pi value:" + pi);
+		System.out.println("inside class B method- super Pi value:" + A.pi);
+	}
+}

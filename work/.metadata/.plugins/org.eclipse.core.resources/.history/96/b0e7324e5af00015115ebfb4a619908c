@@ -1,0 +1,62 @@
+package onlineBanking;
+
+public class Banking {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	class Bank {
+		private double interestRate = 8.5;
+		private double transactionFee = 10;
+		private Customer[] customers;
+
+		public void calculateInterest() {
+
+		}
+
+		public void getInterestRate() {
+
+		}
+
+		public void getTransactionFees() {
+
+		}
+	}
+
+	class Account {
+		private double balance = 100;
+		private String accountNumber;
+
+		public void deposit() {
+
+		}
+
+		public void withdaraw() {
+
+		}
+
+		public void getBalance() {
+
+		}
+	}
+
+	class Customer {
+		private String name;
+		private Account account;
+
+		public void display() {
+
+		}
+
+		public void getName() {
+
+		}
+
+		public void getAccount() {
+
+		}
+	}
+
+}

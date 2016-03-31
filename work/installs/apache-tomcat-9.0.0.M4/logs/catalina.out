@@ -1,0 +1,44 @@
+20-Mar-2016 13:24:47.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M4
+20-Mar-2016 13:24:47.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 12 2016 11:39:59 UTC
+20-Mar-2016 13:24:47.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+20-Mar-2016 13:24:47.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+20-Mar-2016 13:24:47.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.11.2
+20-Mar-2016 13:24:47.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+20-Mar-2016 13:24:47.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre
+20-Mar-2016 13:24:47.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_73-b02
+20-Mar-2016 13:24:47.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Mar-2016 13:24:47.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/thyag/work/installs/apache-tomcat-9.0.0.M4
+20-Mar-2016 13:24:47.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/thyag/work/installs/apache-tomcat-9.0.0.M4
+20-Mar-2016 13:24:47.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/thyag/work/installs/apache-tomcat-9.0.0.M4/conf/logging.properties
+20-Mar-2016 13:24:47.786 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Mar-2016 13:24:47.786 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/thyag/work/installs/apache-tomcat-9.0.0.M4
+20-Mar-2016 13:24:47.786 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/thyag/work/installs/apache-tomcat-9.0.0.M4
+20-Mar-2016 13:24:47.786 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/thyag/work/installs/apache-tomcat-9.0.0.M4/temp
+20-Mar-2016 13:24:47.786 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/thyag/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+20-Mar-2016 13:24:47.912 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Mar-2016 13:24:47.940 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Mar-2016 13:24:47.943 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+20-Mar-2016 13:24:47.944 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Mar-2016 13:24:47.944 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 631 ms
+20-Mar-2016 13:24:47.971 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+20-Mar-2016 13:24:47.971 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M4
+20-Mar-2016 13:24:47.978 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/thyag/work/installs/apache-tomcat-9.0.0.M4/webapps/docs
+20-Mar-2016 13:24:48.246 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/thyag/work/installs/apache-tomcat-9.0.0.M4/webapps/docs has finished in 267 ms
+20-Mar-2016 13:24:48.246 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/thyag/work/installs/apache-tomcat-9.0.0.M4/webapps/examples
+20-Mar-2016 13:24:48.505 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/thyag/work/installs/apache-tomcat-9.0.0.M4/webapps/examples has finished in 259 ms
+20-Mar-2016 13:24:48.505 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/thyag/work/installs/apache-tomcat-9.0.0.M4/webapps/host-manager
+20-Mar-2016 13:24:48.536 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/thyag/work/installs/apache-tomcat-9.0.0.M4/webapps/host-manager has finished in 31 ms
+20-Mar-2016 13:24:48.536 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/thyag/work/installs/apache-tomcat-9.0.0.M4/webapps/manager
+20-Mar-2016 13:24:48.561 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/thyag/work/installs/apache-tomcat-9.0.0.M4/webapps/manager has finished in 25 ms
+20-Mar-2016 13:24:48.561 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/thyag/work/installs/apache-tomcat-9.0.0.M4/webapps/ROOT
+20-Mar-2016 13:24:48.576 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/thyag/work/installs/apache-tomcat-9.0.0.M4/webapps/ROOT has finished in 15 ms
+20-Mar-2016 13:24:48.593 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+20-Mar-2016 13:24:48.599 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+20-Mar-2016 13:24:48.600 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 656 ms
+20-Mar-2016 14:35:43.806 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+20-Mar-2016 14:35:46.880 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+20-Mar-2016 14:35:46.933 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+20-Mar-2016 14:35:46.959 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+20-Mar-2016 14:35:46.963 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+20-Mar-2016 14:35:46.964 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+20-Mar-2016 14:35:46.965 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

@@ -1,0 +1,32 @@
+package test;
+
+public class Temp {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		B b = new B();
+		b.method();
+		B b1 = new B();
+		b1.method();
+	}
+}
+
+abstract class A {
+	public void method() {
+	}
+}
+
+class B extends A implements MyInterface{
+
+	public void method() {
+		System.out.println("inside class B method");
+	}
+
+	
+	public void methodi() {
+		// TODO Auto-generated method stub
+		
+	}
+}
+interface MyInterface{
+	public void methodi();
+}

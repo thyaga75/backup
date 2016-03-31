@@ -1,0 +1,45 @@
+package test;
+
+public abstract class Temp {
+	public  static void main(String[] args) {
+		// TODO Auto-generated method stub
+		B b = new B();
+		b.method();
+		b.methodi();
+		MyInterface mi=new B();
+		mi.methodi();
+		A a1= new B();
+		a1.method();
+	}
+}
+
+ class A {
+	 public A(){
+		 System.out.println("inside class A constructor");
+	 }
+	public void method() {
+		System.out.println("inside class A method");
+	}
+	public  A(String msg) {
+		System.out.println("inside class A constructor with msg  " +msg);
+	}
+}
+
+class B extends A implements MyInterface{
+	 public B(){
+		 System.out.println("inside class B constructor");
+		 A a2= new A("From clas  B Constructor");
+	 }
+	public void method() {
+		System.out.println("inside class B method");
+	}
+
+	
+	public void methodi() {
+		// TODO Auto-generated method stub
+		System.out.println("inside class B methodi");
+	}
+}
+interface MyInterface{
+	public void methodi();
+}
